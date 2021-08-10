@@ -14,3 +14,5 @@ class Vector:
     def __sub__(self,other):
         return Vector(self.x - other.x, self.y - other.y)
 
+    def some_func(self):
+        pass
